@@ -13,7 +13,7 @@ import Card from '../components/Card';
 import MainButton from '../components/MainButton';
 import NumberContainer from '../components/NumberContainer';
 import BodyText from '../components/BodyText';
-import colors from '../constants/colors';
+import Colors from '../constants/colors';
 
 const generateRandomBetween = (min, max, exclude) => {
   min = Math.ceil(min);
@@ -129,7 +129,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     padding: 15,
     marginVertical: 10,
-    backgroundColor: colors.accent,
+    backgroundColor: Colors.accent,
     justifyContent: 'flex-start',
   },
 });
